@@ -1,0 +1,40 @@
+{
+  "name": "oss-starter-kit",
+  "version": "1.1.0",
+  "description": "A mature open-source starter kit for Node.js projects.",
+  "license": "MIT",
+  "author": "Fast GitHub Labs",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "lint": "node --check src/index.js && node --check tests/index.test.js && node --check examples/basic.js",
+    "ci": "npm run lint && npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjh1880/oss-starter-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zjh1880/oss-starter-kit/issues"
+  },
+  "homepage": "https://github.com/zjh1880/oss-starter-kit#readme",
+  "files": [
+    "src",
+    "docs",
+    "examples",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "open-source",
+    "starter",
+    "template",
+    "github",
+    "nodejs"
+  ]
+}
